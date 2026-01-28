@@ -147,8 +147,8 @@ namespace PRN222.CourseManagement.Service.Services
         // Helper method: Validate grading period - thêm static
         private static bool ValidateGradingPeriod(DateTime enrollDate)
         {
-            //                       DateTime.Now
-            var daysSinceEnrollment = (DateTime.Now - enrollDate).TotalDays;
+            
+            var daysSinceEnrollment = (DateTime.UtcNow - enrollDate).TotalDays;
             return daysSinceEnrollment <= GRADING_PERIOD_DAYS;
         }
     }
