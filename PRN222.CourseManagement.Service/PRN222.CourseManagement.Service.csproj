@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SonarQubeExclude>True</SonarQubeExclude>
+    <SonarQubeTestProject>True</SonarQubeTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PRN222.CourseManagement.Repository\PRN222.CourseManagement.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

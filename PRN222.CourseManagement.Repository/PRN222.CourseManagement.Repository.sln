@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN222.CourseManagement.Repository", "PRN222.CourseManagement.Repository.csproj", "{CE5801F9-ADB9-4FF6-8879-97B5B7CC110E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN222.CourseManagement.ConsoleApp", "..\PRN222.CourseManagement.ConsoleApp\PRN222.CourseManagement.ConsoleApp.csproj", "{E17575DB-47BE-443A-B29D-25F682E3EF53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE5801F9-ADB9-4FF6-8879-97B5B7CC110E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5801F9-ADB9-4FF6-8879-97B5B7CC110E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5801F9-ADB9-4FF6-8879-97B5B7CC110E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5801F9-ADB9-4FF6-8879-97B5B7CC110E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E17575DB-47BE-443A-B29D-25F682E3EF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17575DB-47BE-443A-B29D-25F682E3EF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17575DB-47BE-443A-B29D-25F682E3EF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17575DB-47BE-443A-B29D-25F682E3EF53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE4D51E3-9563-475C-AAC3-5C89082F8E09}
+	EndGlobalSection
+EndGlobal
