@@ -148,7 +148,7 @@ namespace PRN222.CourseManagement.Service.Services
         private static bool ValidateGradingPeriod(DateTime enrollDate)
         {
             //                       DateTime.Now
-            var daysSinceEnrollment = (DateTime.UtcNow - enrollDate).TotalDays;
+            var daysSinceEnrollment = (DateTime.Now - enrollDate).TotalDays;
             return daysSinceEnrollment <= GRADING_PERIOD_DAYS;
         }
     }
