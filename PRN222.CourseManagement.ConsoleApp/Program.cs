@@ -32,7 +32,6 @@ static class Program
 
         // Lấy Service ra để dùng
         var studentService = serviceProvider.GetService<IStudentService>();
-        // var enrollmentService = serviceProvider.GetService<IEnrollmentService>();
 
         // Hỗ trợ hiển thị tiếng Việt
         Console.OutputEncoding = System.Text.Encoding.UTF8;
