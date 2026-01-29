@@ -7,6 +7,10 @@ using PRN222.CourseManagement.Repository.Repositories;
 using PRN222.CourseManagement.Service.Interfaces;
 using PRN222.CourseManagement.Service.Services;
 
+namespace PRN222.CourseManagement.ConsoleApp
+{
+    
+
 static class Program
 {
     static void Main(string[] args)
@@ -167,4 +171,5 @@ static class Program
         Console.WriteLine("\nNhấn Enter để quay lại Menu...");
         Console.ReadLine();
     }
+}
 }
