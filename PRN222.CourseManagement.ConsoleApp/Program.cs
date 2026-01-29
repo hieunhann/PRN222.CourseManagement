@@ -7,7 +7,7 @@ using PRN222.CourseManagement.Repository.Repositories;
 using PRN222.CourseManagement.Service.Interfaces;
 using PRN222.CourseManagement.Service.Services;
 
-class Program
+static class Program
 {
     static void Main(string[] args)
     {
